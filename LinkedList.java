@@ -95,5 +95,6 @@ public class LinkedList {
         Node m = new Node(3, new Node(3, new Node(5, new Node(8, new Node(9)))));
         Node merg = Node.mergeAndSort(n,m);
         merg.print();
+        Node.reverse(merg).print();
     }
 }
